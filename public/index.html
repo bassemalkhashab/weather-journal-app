@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="center">
+    <svg class="sky" width="1821" height="538" viewBox="0 0 1821 538" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.5" d="M834 537.047C839.455 431.067 927.109 346.815 1034.44 346.815C1040.54 346.815 1046.57 347.133 1052.53 347.666C1075.98 307.326 1109.6 273.845 1150.04 250.565C1190.47 227.285 1236.31 215.022 1282.97 215C1329.63 214.978 1375.47 227.198 1415.93 250.439C1456.39 273.681 1490.04 307.131 1513.53 347.448C1518.56 347.07 1523.62 346.815 1528.75 346.815C1636.09 346.815 1723.74 431.067 1729.19 537.047" fill="#F2F2F2"/>
+        <path opacity="0.5" d="M263 288C264.06 267.751 272.849 248.68 287.556 234.722C302.263 220.764 321.765 212.982 342.041 212.981C344.446 212.981 346.822 213.107 349.173 213.317C358.419 197.409 371.677 184.206 387.622 175.025C403.567 165.845 421.642 161.009 440.041 161C458.439 160.991 476.519 165.81 492.473 174.976C508.426 184.141 521.697 197.332 530.958 213.231C532.941 213.082 534.938 212.981 536.959 212.981C557.235 212.982 576.737 220.764 591.444 234.722C606.151 248.68 614.94 267.751 616 288" fill="#F2F2F2"/>
+        <path opacity="0.5" d="M1550 120.302C1550.81 104.788 1557.55 90.1767 1568.81 79.4824C1580.08 68.7881 1595.03 62.826 1610.56 62.8258C1612.4 62.8258 1614.22 62.9219 1616.03 63.0829C1623.11 50.895 1633.27 40.7791 1645.49 33.7455C1657.7 26.7118 1671.55 23.0067 1685.65 23C1699.75 22.9933 1713.6 26.6854 1725.82 33.7075C1738.05 40.7295 1748.21 50.8358 1755.31 63.017C1756.83 62.9029 1758.36 62.8258 1759.91 62.8258C1775.44 62.826 1790.39 68.7882 1801.65 79.4824C1812.92 90.1767 1819.66 104.788 1820.47 120.302" fill="#F2F2F2"/>
+        <path d="M72.31 144.62C112.246 144.62 144.62 112.246 144.62 72.31C144.62 32.3743 112.246 0 72.31 0C32.3743 0 0 32.3743 0 72.31C0 112.246 32.3743 144.62 72.31 144.62Z" fill="#FCCC63"/>
+        </svg>
+        
+    
+    <div id="entryHolder" class="center">
+        <div class="center" id="date"><i class="fa fa-calendar white" aria-hidden="true"></i><p>Date</p></div>
+        <div class="center" id="temp"><h1>&#127777;</h1><p>Temp</p></div>
+        <div class="center" id="content"><i class="fa fa-comment white"></i><p>Comment</p></div>
+    </div>
+    <svg width="1920" height="519" viewBox="0 0 1920 519" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.122528 60.9649C891 304.5 1028.5 -157 1920.33 60.9649C2812.16 278.93 1920.33 519 1920.33 519H0.122528C0.122528 519 -890.755 -182.57 0.122528 60.9649Z" fill="#EEEEEE"/>
+        
+     
+        <i class="fa fa-map-marker purple" aria-hidden="true"><input id="zip" class="bg-1" type="text" name="zipCode" placeholder="Enter zip code here" data-toggle="popover"  data-content="Enter a correct zip code"></i> 
+    <textarea class="bg-2" placeholder="How are you feeling now?" id="feelings" cols="35" rows="7" ></textarea>
+    <button id="generate">Check</button>
+    </svg>
+    <script src="js\app.js"></script>
+</body>
+</html>
